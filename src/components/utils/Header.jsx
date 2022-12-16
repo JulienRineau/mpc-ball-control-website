@@ -17,7 +17,7 @@ class Header extends Component {
             <Nav.Link href="/ComputerVision">Computer vision</Nav.Link>
             <Nav.Link href="/Hardware">Hardware</Nav.Link>
             <Nav.Link
-              href="https://github.com/JulienRineau/ball-tracking"
+              href="https://github.com/JulienRineau/mpc-ball-control"
               target="_blank"
               rel="noopener noreferrer"
             >
