@@ -18,7 +18,7 @@ class Home extends Component {
               part of the CS206B course at UC Berkeley
             </p>
             <button
-              href="https://github.com/JulienRineau/ball-tracking"
+              href="https://github.com/JulienRineau/mpc-ball-control"
               class="btn btn-dark btn-lg"
               type="button"
             >
