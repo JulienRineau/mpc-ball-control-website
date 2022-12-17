@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import ReactPlayer from "react-player/youtube";
 import all_it from "../assets/images/all_it.png";
 import first_it from "../assets/images/first_it.png";
 import sec_it from "../assets/images/sec_it.png";
@@ -41,22 +42,16 @@ class Hardware extends Component {
               <Col sm>
                 {" "}
                 <div>
-                  <img
-                    src={first_it}
-                    alt="Equation"
-                    width="50%"
-                    height="auto"
+                  <ReactPlayer
+                    width="100%"
+                    url="https://youtu.be/pZHXj4jGI1o"
                   />
+                  ;
                 </div>
               </Col>
               <Col sm>
                 <div>
-                  <img
-                    src={first_it}
-                    alt="Equation"
-                    width="50%"
-                    height="auto"
-                  />
+                  <img src={first_it} alt="Equation" width="100%" />
                 </div>
               </Col>
             </Row>

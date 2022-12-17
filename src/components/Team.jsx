@@ -39,7 +39,12 @@ class Team extends Component {
                     programming and AI, his main focus for this project was
                     navigating the control strategy for MPC design.
                   </Card.Text>
-                  <Button variant="primary">LinkedIn</Button>
+                  <Button
+                    href="https://www.linkedin.com/in/chet-kruse/"
+                    variant="primary"
+                  >
+                    LinkedIn
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -57,7 +62,12 @@ class Team extends Component {
                     project was the hardware design as well as helping in the
                     creation of the ball detection node to track the ball.
                   </Card.Text>
-                  <Button variant="primary">LinkedIn</Button>
+                  <Button
+                    href="https://www.linkedin.com/in/alex-rivero-sabiote/"
+                    variant="primary"
+                  >
+                    LinkedIn
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -75,7 +85,12 @@ class Team extends Component {
                     focusing specifically on computer vision and global software
                     architecture.
                   </Card.Text>
-                  <Button variant="primary">LinkedIn</Button>
+                  <Button
+                    href="https://www.linkedin.com/in/jrineau/"
+                    variant="primary"
+                  >
+                    LinkedIn
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -86,16 +101,19 @@ class Team extends Component {
                 <Card.Body>
                   <Card.Title>Izcalli Aguirre </Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    non risus. Suspendisse lectus tortor, dignissim sit amet,
-                    adipiscing nec, ultricies sed, dolor. Cras elementum
-                    ultrices diam. Maecenas ligula massa, varius a, semper
-                    congue, euismod non, mi. Proin porttitor, orci nec nonummy
-                    molestie, enim est eleifend mi, non fermentum diam nisl sit
-                    amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
-                    consequat in, pretium a, enim.
+                    Izcalli is a mechanical engineering graduate student with a
+                    background in mechanical design and an interest in robotics.
+                    He received their BS in mechanical engineering in 2021 and
+                    are currently enrolled in the MEng program at UC Berkeley.
+                    He is also a certified Engineer-in-Training in California
+                    and have experience with CAD and FEA software.
                   </Card.Text>
-                  <Button variant="primary">LinkedIn</Button>
+                  <Button
+                    href="https://www.linkedin.com/in/izcalli-aguirre-107872141/"
+                    variant="primary"
+                  >
+                    LinkedIn
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
