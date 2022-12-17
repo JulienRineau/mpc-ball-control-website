@@ -24,7 +24,9 @@ class Cards extends Component {
           <Card.Body>
             <Card.Title>MPC Controller</Card.Title>
             <Card.Text>{mpc_description.substring(0, 250)}...</Card.Text>
-            <Button variant="primary">Learn more</Button>
+            <Button href="/Controller" variant="primary">
+              Learn more
+            </Button>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
@@ -32,7 +34,9 @@ class Cards extends Component {
           <Card.Body>
             <Card.Title>Computer Vision</Card.Title>
             <Card.Text>{cv_description.substring(0, 250)}...</Card.Text>
-            <Button variant="primary">Learn more</Button>
+            <Button href="/ComputerVision" variant="primary">
+              Learn more
+            </Button>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
@@ -40,7 +44,9 @@ class Cards extends Component {
           <Card.Body>
             <Card.Title>Hardware</Card.Title>
             <Card.Text>{hardware_description.substring(0, 250)}...</Card.Text>
-            <Button variant="primary">Learn more</Button>
+            <Button href="/Hardware" variant="primary">
+              Learn more
+            </Button>
           </Card.Body>
         </Card>
       </CardGroup>
