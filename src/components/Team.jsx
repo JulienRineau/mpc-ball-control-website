@@ -4,6 +4,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import chet from "../assets/images/chet.JPG";
+import alex from "../assets/images/alex.jpg";
+import julien from "../assets/images/julien.JPG";
+import izzy from "../assets/images/izzy.jpeg";
 
 class Team extends Component {
   state = {};
@@ -25,7 +29,7 @@ class Team extends Component {
             <Col>
               {" "}
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="Chet" src={chet} />
                 <Card.Body>
                   <Card.Title>Chet Kruse</Card.Title>
                   <Card.Text>
@@ -42,7 +46,7 @@ class Team extends Component {
             <Col>
               {" "}
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="Alex" src={alex} />
                 <Card.Body>
                   <Card.Title>Alex Rivero</Card.Title>
                   <Card.Text>
@@ -60,7 +64,7 @@ class Team extends Component {
             <Col>
               {" "}
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="Julien" src={julien} />
                 <Card.Body>
                   <Card.Title>Julien Rineau</Card.Title>
                   <Card.Text>
@@ -78,9 +82,9 @@ class Team extends Component {
             <Col>
               {" "}
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="Izcalli" src={izzy} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Izcalli Aguirre </Card.Title>
                   <Card.Text>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     non risus. Suspendisse lectus tortor, dignissim sit amet,

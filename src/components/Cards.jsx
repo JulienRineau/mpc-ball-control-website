@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { CardGroup, Card } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import cv_logo from "../assets/images/cv_logo.jpeg";
+import hardware_logo from "../assets/images/hardware_logo.jpg";
+import MPC_logo from "../assets/images/MPC_logo.png";
 
 class Cards extends Component {
   state = {};
@@ -8,7 +11,7 @@ class Cards extends Component {
     return (
       <CardGroup>
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="MPC" src={MPC_logo} />
           <Card.Body>
             <Card.Title>MPC Controller</Card.Title>
             <Card.Text>
@@ -19,7 +22,7 @@ class Cards extends Component {
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="Computer vision" src={cv_logo} />
           <Card.Body>
             <Card.Title>Computer Vision</Card.Title>
             <Card.Text>
@@ -30,7 +33,7 @@ class Cards extends Component {
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="Hardware" src={hardware_logo} />
           <Card.Body>
             <Card.Title>Hardware</Card.Title>
             <Card.Text>

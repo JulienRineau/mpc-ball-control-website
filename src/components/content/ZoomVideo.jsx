@@ -13,7 +13,7 @@ class ZoomVideo extends Component {
           {" "}
           <Row>
             <Col sm>
-              <ReactPlayer url="https://youtu.be/FzEicyJltkM" />;
+              <ReactPlayer width="100%" url="https://youtu.be/FzEicyJltkM" />;
             </Col>
           </Row>
         </Container>
